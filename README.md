@@ -51,7 +51,7 @@ See the notebook for plots, diagnostics, and model comparisons.
 
 ## Files
 - `ARIMA_Graphs.ipynb` – main analysis notebook (plots + results)
-- `report.pdf` – supporting writeup/notes (optional)
+- `report.pdf` – supporting writeup/notes
 - `requirements.txt` – Python dependencies
 
 ---
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ```
 2) Open the notebook:
 ```
-jupyter notebook ARIMA_Graphs.ipynb
+jupyter notebook Time-Series-Dynamic-Regression.ipynb
 ```
 ---
 
@@ -72,3 +72,7 @@ jupyter notebook ARIMA_Graphs.ipynb
 - Include more assets and time periods
 - Add stronger baselines (e.g., GARCH, simple momentum)
 - Report metrics across multiple random seeds and regimes
+
+## Example Outputs
+![ARIMA fit](images/arima_fit.png)
+![Residual ML](images/residual_ml.png)
