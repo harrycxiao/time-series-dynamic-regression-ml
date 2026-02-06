@@ -74,5 +74,5 @@ jupyter notebook Time-Series-Dynamic-Regression.ipynb
 - Report metrics across multiple random seeds and regimes
 
 ## Example Outputs
-![ARIMA fit](images/arima_fit.png)
-![Residual ML](images/residual_ml.png)
+![ARIMA fit](dynamic_graph.png)
+![ARIMA fit](residuals.png)
